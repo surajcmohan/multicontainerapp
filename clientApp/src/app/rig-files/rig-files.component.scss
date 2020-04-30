@@ -1,0 +1,38 @@
+td,th{
+    text-align: left;
+    padding: 5px;
+}
+table {
+    width: 100%;
+  }
+.heading{
+    font-size: 20px;
+    padding: 10px;
+}
+.nodata{
+    padding: 30px;
+}
+a.docname{
+    text-decoration: none;
+}
+.spinnerCenter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+ion-spinner {
+    stroke: #ff0000;
+    fill: #8b0000;
+    position: fixed;
+    z-index: 999;
+    height: 15em;
+    width: 5em;
+    overflow: show;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }

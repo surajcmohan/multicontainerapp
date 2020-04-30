@@ -8,14 +8,17 @@ services:
     build: ./nginx
     ports:
       - "8114:80"
+    image: surajcmohan/nginximageionic
   server-app:
     build: ./serverApp
     ports:
       - "8112:3000"
+    image: surajcmohan/serverimageionic
   client-app:
     build: ./clientApp
     ports:
       - "8113:8100"
+    image: surajcmohan/clientimageionic
     volumes:
       - /app/node_modules
       - ./clientApp:/app
